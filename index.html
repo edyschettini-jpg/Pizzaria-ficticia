@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzaria Bella Napoli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍕 Pizzaria Bella Napoli</h1>
+    <p>A melhor pizza da cidade!</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#pedido">Pedido</a>
+</nav>
+
+<section id="cardapio">
+    <h2>Nosso Cardápio</h2>
+
+    <div class="pizza">
+        <h3>Pizza Calabresa</h3>
+        <p>Calabresa, cebola e queijo</p>
+        <span>R$ 35,00</span>
+        <button onclick="pedir('Calabresa')">Pedir</button>
+    </div>
+
+    <div class="pizza">
+        <h3>Pizza Mussarela</h3>
+        <p>Queijo mussarela e orégano</p>
+        <span>R$ 30,00</span>
+        <button onclick="pedir('Mussarela')">Pedir</button>
+    </div>
+
+    <div class="pizza">
+        <h3>Pizza Frango com Catupiry</h3>
+        <p>Frango desfiado e catupiry</p>
+        <span>R$ 38,00</span>
+        <button onclick="pedir('Frango com Catupiry')">Pedir</button>
+    </div>
+</section>
+
+<section id="pedido">
+    <h2>Seu Pedido</h2>
+    <p id="resultado">Nenhuma pizza selecionada.</p>
+</section>
+
+<footer>
+    <p>📍 Pizzaria fictícia para estudo - 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
